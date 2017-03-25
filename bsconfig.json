@@ -1,0 +1,10 @@
+{
+  "name" : "introduce-reason",
+  "reason" : { "react-jsx" : true },
+  "bs-dependencies": ["reason-react", "reason-js"],
+  "sources": [
+    {
+      "dir": "src",
+    }
+  ],
+}

@@ -4,12 +4,17 @@
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "reason-js": "^0.3.0",
+    "reason-react": "https://github.com/reasonml/reason-react.git"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "bs-platform": "https://github.com/bloomberg/bucklescript.git"
   },
   "scripts": {
+    "buckle:up": "bsb -make-world -w",
+    "buckle:clean": "bsb -clean-world",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

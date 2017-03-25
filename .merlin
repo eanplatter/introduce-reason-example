@@ -1,0 +1,13 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx /Users/eanplatter/Documents/introduce-reason/node_modules/bs-platform/bin/reactjs_jsx_ppx.exe
+FLG -ppx /Users/eanplatter/Documents/introduce-reason/node_modules/bs-platform/bin/bsppx.exe
+S /Users/eanplatter/Documents/introduce-reason/node_modules/bs-platform/lib/ocaml
+B /Users/eanplatter/Documents/introduce-reason/node_modules/bs-platform/lib/ocaml
+FLG -nostdlib -no-alias-deps -color always -w -40+6+7+27+32..39+44+45
+S /Users/eanplatter/Documents/introduce-reason/node_modules/reason-react/lib/ocaml
+B /Users/eanplatter/Documents/introduce-reason/node_modules/reason-react/lib/ocaml
+S /Users/eanplatter/Documents/introduce-reason/node_modules/reason-js/lib/ocaml
+B /Users/eanplatter/Documents/introduce-reason/node_modules/reason-js/lib/ocaml
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}
