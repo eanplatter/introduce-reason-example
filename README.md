@@ -2,13 +2,10 @@
 One of the hardest things about trying out new tools is that they don't always play well with your
 existing code, or if they do it takes a lot of time and effort to make it happen.
 
-[Reason](https://github.com/facebook/reason) happens to be extremely easy to integrate into an existing React app with the help of [reason-reason](https://github.com/reasonml/reason-react)
+[Reason](https://github.com/facebook/reason) happens to be extremely easy to integrate into an existing React app with the help of [reason-react](https://github.com/reasonml/reason-react)
 
 In this README I am going to attempt to convey how I added Reason to an existing app created by [create-react-app](https://github.com/facebookincubator/create-react-app).
 The code in this project is an "existing codebase" with Reason implemented.
-
-I don't want to dive too deep into the different tools used to set this up, mostly because I don't have
-a lot of them, but instead want to focus on the process of introducing Reason into a React app.
 
 ## Step 1 - BuckleScript Config
 [BuckleScript](https://github.com/bloomberg/bucklescript) is "a backend for the OCaml compiler which emits JavaScript". It
