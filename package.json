@@ -6,11 +6,11 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "reason-js": "^0.3.0",
-    "reason-react": "https://github.com/reasonml/reason-react.git"
+    "reason-react": "0.0.2"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5",
-    "bs-platform": "https://github.com/bloomberg/bucklescript.git"
+    "bs-platform": "^1.5.2",
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "buckle:up": "bsb -make-world -w",
