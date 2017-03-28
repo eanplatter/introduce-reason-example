@@ -37,7 +37,7 @@ We need 3 new dependencies in order to make this work: [reason-react](https://ww
 
 To install these, run the following in your terminal:
 ```shell
-npm i -S reason-js reason-react && npm i -D bs-platform`
+npm i -S reason-js reason-react && npm i -D bs-platform
 ```
 
 ## Step 3 - Add a BuckleScript NPM Script
